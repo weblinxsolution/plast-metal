@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+@font-face {
+    font-family: Belfast Grotesk-light;
+    src: url("/assets/font/Belfast\ Grotesk\ Light.ttf.ttf");
+}
+
+@font-face {
+    font-family: Belfast Grotesk-regular;
+    src: url("/assets/font/Belfast\ Grotesk\ Regular.ttf");
+}
+
+@font-face {
+    font-family: Belfast Grotesk-medium;
+    src: url("/assets/font/Belfast\ Grotesk\ Medium.ttf");
+}
+
+@font-face {
+    font-family: Belfast Grotesk-semiBold;
+    src: url("/assets/font/Belfast\ Grotesk\ Semi\ Bold.ttf");
+}
+
+@font-face {
+    font-family: Belfast Grotesk-Bold;
+    src: url("/assets/font/Belfast\ Grotesk\ Black.ttf");
+}
+
+@font-face {
+    font-family: Belfast Grotesk-extraBold;
+    src: url("/assets/font/Belfast\ Grotesk\ Extra\ Bold.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Belfast Grotesk-medium;
+
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.fw-100 {
+    font-family: Belfast Grotesk-light;
+}
+
+.fw-400 {
+    font-family: Belfast Grotesk-medium;
+}
+
+.fw-500 {
+    font-family: Belfast Grotesk-semiBold;
+}
+
+.fw-600 {
+    font-family: Belfast Grotesk-Bold;
+}
+
+.fw-700 {
+    font-family: Belfast Grotesk-extraBold;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 62px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.text-green {
+    color: #2d611d;
+}
+
+.nav-link {
+    color: #2d611d !important;
+    font-weight: 600;
+}
+
+.text-lightgreen {
+    color: #80af1a;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+img {
+    width: 100%;
+}
+
+.location i {
+    font-size: 18px !important;
+}
+
+.facebook__logo {
+    width: 40px;
+}
+
+.border-left_logo {
+    border-left: 1px solid #d2d2d2;
+    padding-left: 1rem;
+}
+
+.main__logo {
+    width: 150px;
+}
+
+.banner-bg {
+    background-image: url("/assets/images/banner_img.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 11%;
+}
+
+.btn-green button {
+    background-color: #73a702;
+    border: none;
+    padding: 10px 30px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.spacing {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bottle_img img {
+    width: 80%;
+}
+
+.trash-area {
+    background-color: #2d611d;
+}
+
+.trash-area-1 {
+    background-color: #73a702;
+}
+
+.dustbin__img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 10px;
+}
+
+.three-cards {
+    /* margin-top: -15%; */
+    position: absolute;
+    width: 80%;
+    top: 80%;
+}
+
+.recycle-bg {
+    background-color: #b6eec7;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.recycle__img img {
+    width: 75%;
+}
+
+.footer__logo {
+    width: 150px;
+}
+
+.footer-bg {
+    background-image: url("/assets/images/footer-bg.png");
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    margin-top: -5%;
+}
+
+.quick-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
