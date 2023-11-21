@@ -35,9 +35,10 @@
 }
 
 @media (max-width:400px) {
-    .contact-us{
+    .contact-us {
         margin-top: 3rem;
     }
+
     .footer-bg {
         padding-top: 11%;
     }
