@@ -39,7 +39,7 @@
 }
 
 .wrapper {
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -211,4 +211,12 @@ img {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+}
+.sub-heading-bg{
+    background-image: url("/assets/images/subbg.png");
+    background-size: 100%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    background-repeat: no-repeat;
+    /* margin-bottom: 3rem; */
 }

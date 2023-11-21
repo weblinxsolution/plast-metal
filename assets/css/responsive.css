@@ -1,0 +1,38 @@
+@media (max-width:768px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .three-cards {
+        width: 100%;
+    }
+
+    .banner-bg {
+        background-size: cover;
+    }
+
+    .footer-bg {
+        margin-top: -7%;
+    }
+}
+
+@media (max-width:400px) {
+    .three-cards {
+        position: static;
+    }
+    .footer-bg {
+        margin-top: -12%;
+    }
+    .btn-green button {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+}
