@@ -314,3 +314,11 @@ img {
     border-radius: 0 !important;
     border: 1px solid #cccccc;
 }
+
+.nav-item a {
+    font-size: larger;
+}
+
+.quick-links ul li a{
+    font-size: larger;
+}
