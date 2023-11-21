@@ -35,6 +35,17 @@
 }
 
 @media (max-width:400px) {
+    .contact-us{
+        margin-top: 3rem;
+    }
+    .footer-bg {
+        padding-top: 11%;
+    }
+
+    a {
+        font-size: 11px;
+    }
+
     .sub-heading-bg {
         background-size: cover;
     }
