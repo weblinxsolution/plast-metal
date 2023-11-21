@@ -261,3 +261,52 @@ img {
     border-bottom: 1px solid #f2eadf;
     padding-bottom: 15px;
 }
+
+.contact-input-field input {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+}
+
+.contact-input-field select {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+}
+
+.contact-input-field textarea {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #cccccc;
+}
+
+.filed-requried:focus {
+    border-color: red;
+}
+
+.form-control::placeholder {
+    color: #73a702 !important;
+}
+
+.pin-icon {
+    width: 10px;
+    position: absolute;
+    top: 2.5rem;
+    right: 10px;
+}
+
+.contact-input-field-1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-input-field-1 input {
+    border-radius: 0 !important;
+    border: 1px solid #cccccc;
+}
