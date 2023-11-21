@@ -193,6 +193,10 @@ img {
     top: 80%;
 }
 
+.text-small-1 {
+    font-size: 16px;
+}
+
 .recycle-bg {
     background-color: #b6eec7;
     padding-top: .5rem;
@@ -240,9 +244,11 @@ img {
     list-style: disc;
     color: #369740;
 }
-.plastic-dustbin-1{
+
+.plastic-dustbin-1 {
     transform: translateY(30px);
 }
+
 .plastic-dustbin {
     transform: translateY(50px);
 }
@@ -250,7 +256,8 @@ img {
 .zaoberama {
     padding-bottom: 4%;
 }
-.connected{
+
+.connected {
     border-bottom: 1px solid #f2eadf;
     padding-bottom: 15px;
 }
