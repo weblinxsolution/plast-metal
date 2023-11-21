@@ -100,7 +100,10 @@ li {
 .text-green {
     color: #2d611d;
 }
-
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 .nav-link {
     color: #2d611d !important;
     font-weight: 600;
