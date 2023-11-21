@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Belfast Grotesk-light;
-    src: url("/assets/font/Belfast\ Grotesk\ Light.ttf.ttf");
+    src: url("/assets/font/Belfast\ Grotesk\ Light.ttf");
 }
 
 @font-face {
@@ -47,6 +47,10 @@
 
 .fw-100 {
     font-family: Belfast Grotesk-light;
+}
+
+.fw-200 {
+    font-family: Belfast Grotesk-regular;
 }
 
 .fw-400 {
@@ -100,10 +104,12 @@ li {
 .text-green {
     color: #2d611d;
 }
-.navbar-expand-lg .navbar-nav .nav-link{
+
+.navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 .nav-link {
     color: #2d611d !important;
     font-weight: 600;
@@ -215,11 +221,34 @@ img {
     justify-content: center;
     gap: 1rem;
 }
-.sub-heading-bg{
+
+.sub-heading-bg {
     background-image: url("/assets/images/subbg.png");
     background-size: 100%;
     padding-bottom: 4%;
     padding-top: 4%;
     background-repeat: no-repeat;
     /* margin-bottom: 3rem; */
+}
+
+.four-dusbin-img {
+    margin-top: 5rem;
+}
+
+.bullet-point ul li {
+    text-decoration: dotted !important;
+    list-style: disc;
+    color: #369740;
+}
+
+.plastic-dustbin {
+    transform: translateY(100px);
+}
+
+.zaoberama {
+    padding-bottom: 4%;
+}
+.connected{
+    border-bottom: 1px solid #f2eadf;
+    padding-bottom: 15px;
 }
