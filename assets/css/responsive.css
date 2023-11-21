@@ -1,8 +1,9 @@
 @media (max-width:999px) {
-    .sub-heading-bg{
+    .sub-heading-bg {
         padding-top: 2%;
     }
 }
+
 @media (max-width:768px) {
     h1 {
         font-size: 45px;
@@ -27,21 +28,25 @@
     .footer-bg {
         margin-top: -7%;
     }
-    .plastic-dustbin{
+
+    .plastic-dustbin {
         transform: translateY(0);
     }
 }
 
 @media (max-width:400px) {
-    .sub-heading-bg{
+    .sub-heading-bg {
         background-size: cover;
     }
+
     .three-cards {
         position: static;
     }
+
     .footer-bg {
         margin-top: -12%;
     }
+
     .btn-green button {
         padding: 8px 14px;
         font-size: 13px;

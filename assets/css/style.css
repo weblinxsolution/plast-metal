@@ -240,9 +240,11 @@ img {
     list-style: disc;
     color: #369740;
 }
-
+.plastic-dustbin-1{
+    transform: translateY(30px);
+}
 .plastic-dustbin {
-    transform: translateY(100px);
+    transform: translateY(50px);
 }
 
 .zaoberama {
